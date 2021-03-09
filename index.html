@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo-container">
+        <img
+          src="./styles/company-logo.png"
+          alt="Lorem Ipsum logo"
+          id="header-img"
+        />
+        <h1>Lorem Ipsum</h1>
+      </div>
+
+      <nav id="nav-bar">
+        <a href="#about-us" class="nav-link">About Us</a>
+        <a href="#video" class="nav-link">Take a look</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <h2>Experience the jungle!</h2>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input
+          type="email"
+          id="email"
+          name="email"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          placeholder="Enter your email to get started"
+        />
+        <input type="submit" id="submit" class="btn" />
+      </form>
+    </section>
+
+    <section id="about-us">
+      <h2>DIVE INTO THE AMAZON</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia sint,
+        consequatur architecto natus et vitae necessitatibus fugit assumenda ea
+        optio iusto, dolor tempore quod dicta suscipit, culpa nostrum quae
+        veniam!
+      </p>
+
+      <h2>LIVE THE BEST EXPERIENCE OF YOUR LIFE</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, quod
+        laboriosam. Tenetur nihil sit cumque iste illo praesentium, placeat eum
+        voluptates et reprehenderit animi nostrum mollitia dignissimos
+        aspernatur doloremque non.
+      </p>
+
+      <h2>TRY TO NOT GET EATEN</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste unde non
+        enim quas nulla doloribus autem omnis eos, odit eaque necessitatibus,
+        modi ab ipsum? Repudiandae laboriosam sunt accusantium beatae rem!
+      </p>
+    </section>
+
+    <div class="iframe-container">
+      <iframe
+        id="video"
+        width="600"
+        height="350"
+        src="https://www.youtube.com/embed/knx7RYNM2m4"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <section id="pricing">
+      <h2>PRICING</h2>
+      <div class="card-container">
+        <div class="pricing-card">
+          <div class="package-style"><h2>GOLD PACKAGE</h2></div>
+          <h3>$9999.25</h3>
+          <ul>
+            <li>Anaconda protection</li>
+            <li>Gorilla Protection</li>
+            <li>A bed</li>
+            <li>Some food</li>
+          </ul>
+          <button class="btn">SELECT</button>
+        </div>
+        <div class="pricing-card">
+          <div class="package-style"><h2>SILVER PACKAGE</h2></div>
+          <h3>$999.25</h3>
+          <ul>
+            <li>No animal protection</li>
+            <li>Maybe a blanket</li>
+            <li>Something else</li>
+            <li>Lorem ipsum</li>
+          </ul>
+          <button class="btn">SELECT</button>
+        </div>
+        <div class="pricing-card">
+          <div class="package-style"><h2>regular package</h2></div>
+          <h3>$99.25</h3>
+          <ul>
+            <li>Lorem ipsum</li>
+            <li>Ipsum lorem</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum dolor</li>
+          </ul>
+          <button class="btn">SELECT</button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="/">Privacy</a></li>
+        <li><a href="/">Terms</a></li>
+        <li><a href="/">Contact</a></li>
+      </ul>
+      <span>Copyright 2020, Lorem Ipsum</span>
+    </footer>
+  </body>
+</html>
