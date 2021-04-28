@@ -30,22 +30,9 @@ section {
 .cta .cta-form {
   width: 100vw;
   max-width: 100%;
-  background-image: url();
 }
 
-.cta .cta-form input::-webkit-input-placeholder {
-  text-align: center;
-}
-
-.cta .cta-form input:-ms-input-placeholder {
-  text-align: center;
-}
-
-.cta .cta-form input::-ms-input-placeholder {
-  text-align: center;
-}
-
-.cta .cta-form input::placeholder {
+.cta .cta-form input[type="email"] {
   text-align: center;
 }
 
