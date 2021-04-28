@@ -19,7 +19,7 @@ section {
 
 .cta {
   padding: 164px 0 82px 0;
-  background-image: url(../images/cta-hero.jpg);
+  background-image: url(/styles/images/cta-hero.jpg);
   background-size: cover;
 }
 
